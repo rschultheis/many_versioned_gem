@@ -21,7 +21,10 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{This gem is used for testing}
   gem.email = "rschultheis@github.com"
   gem.authors = ["Robert Schultheis"]
-  # dependencies defined in Gemfile
+  gem.files.exclude "Gemfile*"
+  gem.files.exclude ".*"
+  gem.files.exclude "Rakefile"
+  gem.files.exclude "test/*"
 end
 Jeweler::RubygemsDotOrgTasks.new
 
@@ -43,7 +46,6 @@ task :default => :test
 require 'rdoc/task'
 Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
-
   rdoc.rdoc_dir = 'rdoc'
   rdoc.title = "many_versioned_gem #{version}"
   rdoc.rdoc_files.include('README*')
