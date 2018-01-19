@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "many_versioned_gem"
   gem.homepage = "http://github.com/rschultheis/many_versioned_gem"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{This is a simple gem, with many versions}
+  gem.description = %Q{This gem is used for testing}
   gem.email = "rschultheis@github.com"
   gem.authors = ["Robert Schultheis"]
   # dependencies defined in Gemfile
