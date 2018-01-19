@@ -37,22 +37,22 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<minitest>.freeze, [">= 0"])
-      s.add_development_dependency(%q<rdoc>.freeze, ["~> 3.12"])
-      s.add_development_dependency(%q<bundler>.freeze, ["~> 1.0"])
-      s.add_development_dependency(%q<jeweler>.freeze, ["~> 2.3.9"])
+      s.add_development_dependency(%q<rdoc>.freeze, [">= 0"])
+      s.add_development_dependency(%q<bundler>.freeze, [">= 0"])
+      s.add_development_dependency(%q<jeweler>.freeze, [">= 0"])
       s.add_development_dependency(%q<simplecov>.freeze, [">= 0"])
     else
       s.add_dependency(%q<minitest>.freeze, [">= 0"])
-      s.add_dependency(%q<rdoc>.freeze, ["~> 3.12"])
-      s.add_dependency(%q<bundler>.freeze, ["~> 1.0"])
-      s.add_dependency(%q<jeweler>.freeze, ["~> 2.3.9"])
+      s.add_dependency(%q<rdoc>.freeze, [">= 0"])
+      s.add_dependency(%q<bundler>.freeze, [">= 0"])
+      s.add_dependency(%q<jeweler>.freeze, [">= 0"])
       s.add_dependency(%q<simplecov>.freeze, [">= 0"])
     end
   else
     s.add_dependency(%q<minitest>.freeze, [">= 0"])
-    s.add_dependency(%q<rdoc>.freeze, ["~> 3.12"])
-    s.add_dependency(%q<bundler>.freeze, ["~> 1.0"])
-    s.add_dependency(%q<jeweler>.freeze, ["~> 2.3.9"])
+    s.add_dependency(%q<rdoc>.freeze, [">= 0"])
+    s.add_dependency(%q<bundler>.freeze, [">= 0"])
+    s.add_dependency(%q<jeweler>.freeze, [">= 0"])
     s.add_dependency(%q<simplecov>.freeze, [">= 0"])
   end
 end

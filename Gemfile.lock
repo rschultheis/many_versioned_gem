@@ -29,7 +29,7 @@ GEM
       rake
       rdoc
       semver2
-    json (1.8.6)
+    json (2.1.0)
     jwt (1.5.6)
     mime-types (2.99.3)
     mini_portile2 (2.3.0)
@@ -48,8 +48,7 @@ GEM
     psych (3.0.2)
     rack (2.0.3)
     rake (12.3.0)
-    rdoc (3.12.2)
-      json (~> 1.4)
+    rdoc (6.0.1)
     semver2 (3.4.2)
     simplecov (0.15.1)
       docile (~> 1.1.0)
@@ -62,10 +61,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.0)
-  jeweler (~> 2.3.9)
+  bundler
+  jeweler
   minitest
-  rdoc (~> 3.12)
+  rdoc
   simplecov
 
 BUNDLED WITH
