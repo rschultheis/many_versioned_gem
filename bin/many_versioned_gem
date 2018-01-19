@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/many_versioned_gem"
+
+version_str = ManyVersionedGem.version
+
+# the only valid usage is --version
+if ARGV == [ "--version" ]
+  puts "Version: #{version_str}"
+  exit 0
+end
+
+puts "Usage: #{$0} --version"
+exit 1
