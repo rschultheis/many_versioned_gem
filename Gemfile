@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "yajl-ruby", "1.3.0"
+gem "yajl-ruby", "1.3.1"
 
 group :development do
   gem "minitest"
