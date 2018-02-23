@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "yajl-ruby", "1.3.1"
-gem "sinatra", "2.0.1"
+gem "sinatra", "2.0.0"
 
 group :development do
   gem "minitest"
