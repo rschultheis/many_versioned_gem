@@ -47,7 +47,7 @@ GEM
       multi_xml (~> 0.5)
       rack (>= 1.2, < 3)
     psych (3.0.2)
-    rack (2.0.3)
+    rack (2.0.8)
     rack-protection (2.0.1)
       rack
     rake (12.3.0)
